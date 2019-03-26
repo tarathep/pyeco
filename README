@@ -1,0 +1,49 @@
+license: 
+BSD
+The MIT License (MIT)
+
+virtualeco: https://github.com/pyeco-org/virtualeco
+pyeco_extra: https://github.com/pyeco/pyeco_extra
+pyeco: https://github.com/pyeco/pyeco
+	
+try server
+add lib update serve
+support python version 2.7x
+3.x is not support!
+
+-Support Saga 17
+
+
+Additions:
+this software is limited to private use of the individual,
+use for commercial purposes is not allowed.
+
+--------------------------------------------------------------
+0.52
+upgrade to v325
+remove dataaccesscontrol/type safe (expend too many memory)
+
+0.51.4
+pet view and move
+fix save null pc to ".ini" issue
+kanban
+
+0.51.3
+type safe in almost class
+fix a problem cause load script error on linux
+change var name:
+	Id -> id, Str -> str, etc...
+	Def -> DEF
+	Attack1 -> atk1, Mattack -> matk, etc...
+call updatepc when change pc.hair, pc.wig, etc...
+modify pc.loadallconfig(pc, path) ...
+	to pc.loadallconfig(path)
+modify PC() to PC(global_itemobj, global_itemdic)
+rename *.htm to *.html
+
+0.51.2
+fix a problem cause can not see other character
+
+0.51.1
+upgrade to v319
+command !face face_id
